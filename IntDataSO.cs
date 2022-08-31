@@ -6,12 +6,8 @@ public class IntDataSO : ScriptableObject {
     public void SetValue(int newValue) {
         value = newValue;
     }
-
-    public void DecreaseValueByAmount(int amount) {
-        value -= amount;
-    }
     
-    public void IncreaseValueByAmount(int amount) {
+    public void UpdateValueByAmount(int amount) {
         value += amount;
     }
 }
