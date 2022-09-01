@@ -7,6 +7,15 @@ public class IntDataSO : ScriptableObject {
         value = newValue;
     }
     
+    public void SetValue(IntDataSO obj) {
+        value = obj.value;
+    }
+
+    public void CompareValue(IntDataSO obj) {
+        if (value >= obj.value) return;
+        value = obj.value;
+    }
+    
     public void UpdateValueByAmount(int amount) {
         value += amount;
     }
