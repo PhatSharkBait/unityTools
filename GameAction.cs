@@ -3,9 +3,9 @@ using UnityEngine.Events;
 
 [CreateAssetMenu]
 public class GameAction : ScriptableObject {
-    public UnityAction Raise;
+    public UnityAction raise;
 
     public void RaiseAction() {
-        Raise.Invoke();
+        raise?.Invoke();
     }
 }
