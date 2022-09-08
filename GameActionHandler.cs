@@ -5,7 +5,7 @@ public class GameActionHandler : MonoBehaviour {
     public GameAction gameActionObject;
     public UnityEvent respondEvent;
     private void Start() {
-        gameActionObject.Raise += Respond;
+        gameActionObject.raise += Respond;
     }
 
     private void Respond() {

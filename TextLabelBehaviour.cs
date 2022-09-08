@@ -8,7 +8,7 @@ public class TextLabelBehaviour : MonoBehaviour {
     public UnityEvent startEvent;
 
     private TextMeshProUGUI _label;
-    private void Start() {
+    private void Awake() {
         _label = GetComponent<TextMeshProUGUI>();
         startEvent.Invoke();
     }
