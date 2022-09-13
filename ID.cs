@@ -1,6 +1,9 @@
 using UnityEngine;
-[CreateAssetMenu]
-public class ID : ScriptableObject
-{
+
+namespace unityTools {
+    [CreateAssetMenu]
+    public class ID : ScriptableObject
+    {
    
+    }
 }
