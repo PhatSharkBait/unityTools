@@ -56,6 +56,6 @@ namespace unityTools {
             canRun = true;
             StartCoroutine(RepeatUntilFalse());
         }
-    
+        
     }
 }
